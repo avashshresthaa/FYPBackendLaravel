@@ -24,7 +24,7 @@ class Cappointments extends Migration
             $table->string('doctorName');
             $table->string('hospitalName');
             $table->string('describeProblem');
-            $table->string('optional1');
+            $table->string('payment');
 
             $table->unsignedBigInteger('user_id');
             $table->foreign('user_id')->references('id')->on('users');
