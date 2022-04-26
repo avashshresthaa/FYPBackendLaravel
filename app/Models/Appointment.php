@@ -19,6 +19,6 @@ class Appointment extends Model
         'doctorName',
         'hospitalName',
         'describeProblem',
-        'payment',
+        //'payment',
     ];
 }
